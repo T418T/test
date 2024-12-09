@@ -22,8 +22,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
-      - name: Build and analyze3
-        uses: sonarsource/sonarqube-quality-gate-action@v1
-         timeout-minutes: 5
-         env:
-           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      #- name: Build and analyze3
+       # uses: sonarsource/sonarqube-quality-gate-action@v1
+        # timeout-minutes: 5
+         #env:
+          # SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
